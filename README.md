@@ -1,12 +1,12 @@
-# ParentWise
+# ParentWise – YouTube-Powered Educational Assistant
 
-ParentWise – YouTube-Powered Educational Assistant
-Project Overview
+
+## Project Overview
 PocketWisdom AI is a RAG-powered educational chatbot that helps parents explain school topics to their children in fun, kid-friendly language. It retrieves knowledge from YouTube transcripts, finds relevant diagrams, and presents simplified educational responses — all driven by GPT-4o-mini.
 
 This project was developed as part of the Ironhack final capstone and uses LangChain, LangSmith, and vector search to build a truly helpful educational assistant.
 
-Features
+## Features
 Agent-Powered Tool Usage:
 
 🧾 Document Search: Retrieves relevant YouTube transcript chunks
@@ -21,15 +21,16 @@ LangSmith Evaluation: Validates output accuracy, hallucination, and relevance
 
 Streamlit App: Friendly local interface for natural language chat
 
-Project Structure
-
-PocketWisdomAI/
+## Project Structure
+```
+ParentWise/
 ├── faiss_youtube_index/             # Saved FAISS vector store for fast retrieval
 │   ├── index.faiss                  # FAISS index file
 │   └── index.pkl                    # Metadata and vector data
 │
 ├── app/                             # Main app directory
 │   ├── app.py                       # Streamlit app interface
+│   ├── Logo                      
 │   └── faiss_youtube_index/         # Local copy of the FAISS index for the app
 │
 ├── youtube_transcripts/             # Educational text data used to build the index
@@ -45,9 +46,9 @@ PocketWisdomAI/
 ├── VectotStore+Agent&tools.ipynb   # Tool definitions, retriever and agent setup
 ├── YouTube_decipher.ipynb          # Script for extracting YouTube content
 ├── requirements.txt                
-└── .env                             
-
-Technologies Used
+└── .env                            
+```
+## Technologies Used
 LangChain + Agents
 
 OpenAI GPT-4o-mini
@@ -60,21 +61,24 @@ Streamlit – Local chat app interface
 
 LangSmith – Evaluation with LLM-based graders
 
-Prerequisites
+## Prerequisites
 Python 3.10+
 
 Install all required Python packages with: (pip install -r requirements.txt)
 
-Deployment
-This application runs locally using Streamlit. To launch the app: (streamlit run app.py)
+## Deployment
+This application runs locally using Streamlit.
+To launch the app: (streamlit run app.py)
 
-License
+## License
 This project is licensed under the MIT License — see the LICENSE file for full details.
 
-Evaluation Metrics (via LangSmith)
-rag-answer-vs-reference - Compares the AI answer to a reference answer for factual correctness 
+## Evaluation Metrics (via LangSmith)
+rag-answer-vs-reference	  - Compares the AI answer to a reference answer for factual correctness
 
-##Acknowledgments 
-Huge thanks to my teachers for their support and guidance, encouragement, and support throughout this journey.
-Big appreciation to my Ironhack classmates for their feedback and collaboration. 
-Acknowledgment is extended to Ironhack for the structure, tools, and opportunity.
+##Acknowledgments
+  Huge thanks to my teachers for their support and guidance, encouragement, and support throughout this journey.
+  Big appreciation to my Ironhack classmates for their feedback and collaboration.
+  Acknowledgment is extended to Ironhack for the structure, tools, and opportunity.
+
+
