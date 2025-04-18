@@ -1,5 +1,6 @@
 # ParentWise – YouTube-Powered Educational Assistant
 
+<img width="365" alt="logo" src="https://github.com/user-attachments/assets/0f949e77-afe5-4288-ab82-c140b31d7b59" />
 
 ## Project Overview
 PocketWisdom AI is a RAG-powered educational chatbot that helps parents explain school topics to their children in fun, kid-friendly language. It retrieves knowledge from YouTube transcripts, finds relevant diagrams, and presents simplified educational responses — all driven by GPT-4o-mini.
