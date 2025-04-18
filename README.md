@@ -22,6 +22,7 @@ LangSmith Evaluation: Validates output accuracy, hallucination, and relevance
 Streamlit App: Friendly local interface for natural language chat
 
 Project Structure
+'''
 PocketWisdomAI/
 ├── faiss_youtube_index/             # Saved FAISS vector store for fast retrieval
 │   ├── index.faiss                  # FAISS index file
@@ -45,7 +46,8 @@ PocketWisdomAI/
 ├── VectotStore+Agent&tools.ipynb   # Tool definitions, retriever and agent setup
 ├── YouTube_decipher.ipynb          # Script for extracting YouTube content
 ├── requirements.txt                
-└── .env                            
+└── .env  
+'''
 Technologies Used
 LangChain + Agents
 
