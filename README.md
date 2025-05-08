@@ -72,7 +72,7 @@ This application runs locally using Streamlit.
 To launch the app: (streamlit run app.py)
 
 ## License
-This project is licensed under the MIT License — see the LICENSE file for full details.
+This project is licensed under the MIT License.
 
 ## Evaluation Metrics (via LangSmith)
 rag-answer-vs-reference	  - Compares the AI answer to a reference answer for factual correctness
