@@ -78,7 +78,7 @@ This project is licensed under the MIT License — see the LICENSE file for full
 rag-answer-vs-reference	  - Compares the AI answer to a reference answer for factual correctness
 
 ## Acknowledgments
-  Huge thanks to my teachers for their support and guidance, encouragement, and support throughout this journey.
+  Huge thanks to my teachers for their support, guidance, and encouragement throughout this journey.
   Big appreciation to my Ironhack classmates for their feedback and collaboration.
   Acknowledgment is extended to Ironhack for the structure, tools, and opportunity.
 
